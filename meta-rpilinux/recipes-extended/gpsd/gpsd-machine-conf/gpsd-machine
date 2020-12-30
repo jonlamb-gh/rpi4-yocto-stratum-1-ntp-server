@@ -1,0 +1,6 @@
+# gpsd conf file
+START_DAEMON="true"
+GPSD_OPTIONS="-n -G"
+DEVICES="/dev/ttyAMA0 /dev/pps0"
+USBAUTO="false"
+GPSD_SOCKET="/run/gpsd.sock"
