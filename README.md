@@ -4,7 +4,8 @@ Chrony stratum-1 time server using gpsd with pps.
 
 TODO
 * update these docs
-* iptables rules
+* update iptables rules
+
 
 ## Hardware
 
