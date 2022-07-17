@@ -21,7 +21,7 @@ do_after_deploy() {
     echo 'arm_64bit=1' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
     echo 'enable_uart=1' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
     echo 'init_uart_baud=9600' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
-    echo 'gpu_mem=512' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
+    echo 'gpu_mem=16' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
     echo 'dtoverlay=disable-bt' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
     echo 'dtoverlay=disable-wifi' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
     echo 'dtparam=i2c_arm=off' >> ${DEPLOY_DIR_IMAGE}/${BCM2711_DIR}/config.txt
